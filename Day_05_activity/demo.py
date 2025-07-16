@@ -12,8 +12,12 @@ print("2025","07","16",sep="-")
 print("sathya",end="...")
 print("rangaraj")
 
-# name="sathya"
-# marks=90
-# print
+# f-String:
+name="sathya"
+marks=90
+print(f"name:{name} \nmarks:{marks}")
+
+
+
 
 
