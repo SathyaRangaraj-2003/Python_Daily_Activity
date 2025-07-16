@@ -56,5 +56,27 @@
 #         str+=chr(ord(char)-32)
 #     print(" ".join(str))
 
-words=["geeks","for","geeks"]
+# words=["geeks","for","geeks"]
+# num=[123,287,9001]
+# print(str(num[2])[2])
 
+# try :
+# num=[123,287,9001]
+# print(str(num[2])[2])
+# # print(str(num[2])[2])
+
+
+#concatenation
+# a=[1,2,3]
+# b=[5,6]
+# c=a+b
+# print(c)
+# print(type(c))
+
+#
+# a=["hi","hello"]*3
+# print(a)
+
+#membership operators (in,not in)
+a=["hi","hello"]
+print("yellow" in a)
