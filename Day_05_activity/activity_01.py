@@ -3,7 +3,12 @@
 #soln 01
 x=426
 y=str(x)
-print(y[1:2])
+print(y[1])
 
 #soln 02
 print((x // 10) % 10)
+
+#soln 03
+x=426
+y=str(x)
+print(y[1:2])
