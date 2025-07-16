@@ -21,4 +21,7 @@ print(f"name:{name} \nmarks:{marks}")
 print(ord('A')) 
 print(chr(97)) 
 
+#list
+mixed_sathya=[10,False,20,"sathya",40.0,None]
+
 
