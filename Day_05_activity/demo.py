@@ -17,7 +17,8 @@ name="sathya"
 marks=90
 print(f"name:{name} \nmarks:{marks}")
 
-
-
+#ascii
+print(ord('A')) 
+print(chr(97)) 
 
 
