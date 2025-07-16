@@ -1,14 +1,5 @@
-# Print Only the Middle Digit of a 3-digit Number Scenario: Given a 3-digit number x = 426, print only the middle digit. 
+# print a rocket using single print()statement
+# o/p : 5-->4-->3-->2-->1-->Liftoff!
 
-#soln 01
-x=426
-y=str(x)
-print(y[1])
-
-#soln 02
-print((x // 10) % 10)
-
-#soln 03
-x=426
-y=str(x)
-print(y[1:2])
+print(5,4,3,2,1,"Liftoff!",sep="-->")
+print("5","4","3","2","1","Liftoff!",sep="-->")

@@ -1,5 +1,3 @@
-# print a rocket using single print()statement
-# o/p : 5-->4-->3-->2-->1-->Liftoff!
-
-print(5,4,3,2,1,"Liftoff!",sep="-->")
-print("5","4","3","2","1","Liftoff!",sep="-->")
+#Quantity,price 
+quantity,price=int(input("Enter quantity:")),float(input("Enter price:"))
+print(f'${quantity*price}')

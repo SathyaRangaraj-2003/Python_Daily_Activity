@@ -1,5 +1,2 @@
-ingredients=["milk powder","cardamom","sugar","ghee"]
-print("ingredients:",ingredients[2])
-
-ingredients=list(input().split(','))
-print(ingredients)
+list=['MOVE','X','TURN','Y','STOP','Z','WAIT','!','JUMP']
+print(*list[::2])
