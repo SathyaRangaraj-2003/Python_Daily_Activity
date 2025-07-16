@@ -78,5 +78,34 @@
 # print(a)
 
 #membership operators (in,not in)
-a=["hi","hello"]
-print("yellow" in a)
+# a=["hi","hello"]
+# print("yellow" in a)
+
+
+# methods
+# try :
+# num=[123,287,9001]
+# num.append(30)
+
+# #shallow copy
+# a=[1,2,3]
+# b=a
+# b[0]=100
+# print(a)
+# print(b)
+
+# a=[1,2,3]
+# b=a.copy()
+# b[0]=100
+# print(a)
+# print(b)
+
+
+# a=[1,2,3]
+# b=[4,5]
+
+name=["alice","bob"]
+# print(name[name.index("alice")].index('i'))
+
+print(name.pop(3))
+
