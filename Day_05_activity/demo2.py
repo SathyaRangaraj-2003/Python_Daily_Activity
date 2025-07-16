@@ -21,3 +21,4 @@ print(f'x:{x}\ny:{y}\nz:{z}')
 # type casting to integer using map:
 v1,v2,v3,v4,v5 = map(int,input("enter five nums: ").split(','))
 print(f'v1:{v1}\nv2:{v2}\nv3:{v3}\nv4:{v4}\nv5:{v5}')
+
