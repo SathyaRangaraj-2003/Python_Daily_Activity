@@ -1,6 +1,7 @@
 # l=[1,2,"raja"]
 # print(l.sort())
 
+#collection of all datatype
 # sathya_tuple=("apple",2,None,True,5.9,[1,2],5+8,1>>2,3>8)
 # print(sathya_tuple)
 
@@ -25,6 +26,6 @@
 # x=((1,2),(3,4))
 # print(x[0])
 
-#nested tuple by negative indexing
-x=((1,2),(3,4))
-print(x[-1][-2])
+# #nested tuple by negative indexing
+# x=((1,2),(3,4))
+# print(x[-1][-2])
