@@ -86,7 +86,8 @@
 # for char in a:
 #     print(chr(ord(char)-32),end="")
     
-# #join()  list
+# # #join()  list
+# #try 01
 # words=["Geeks","For","Geeks"]
 # str=""
 # for val in words:
@@ -94,7 +95,15 @@
 #         str+=chr(ord(char)-32)
 #     str+=" "
 # print(str)
-# # print("".join(str))
+# print("".join(str))
+
+# try 02
+words=["Geeks","For","Geeks"]
+for val in words:
+    word=[]
+    for char in val.lower():
+        word=("".join(chr(ord(char)-32)))
+print(" ".join(word))
 
 # words=["geeks","for","geeks"]
 # num=[123,287,9001]
@@ -123,10 +132,6 @@
 
 
 # # methods
-# # try :
-# num=[123,287,9001]
-# a=num.pop(int(str(num[2])[2]))
-# print(num,a)
 
 # #append()
 # a=[1,2,3]
@@ -146,6 +151,10 @@
 # print(a)
 # print(b)
 
+# #count()
+# a=[1,2,1,3,3,4,5,2,1]
+# print(a.count(1))
+
 # #entend() => to add one list
 # a=[1,2,3]
 # b=[4,5]
@@ -155,9 +164,15 @@
 
 # #index()
 # name=["alice","bob"]
+# print(name[0].index('i'))
 # print(name[name.index("alice")].index('i'))
 
-# #try(1)
+# #remove
+# a=[1,2,1,3,3,4,5,2,1]
+# a.remove(1)
+# print(a)
+
+# #(1)try work (extend)
 # #to add multiple list
 # a=[1,2,3]
 # b=[4,5]
@@ -169,4 +184,18 @@
 # a.extend(b+c)  # by modifying the list
 # print(a)
 
+# #(2)try work: (index) =>first occurnce index
+# num=[123,287,9001]
+# print(str(num[2]).index('0'))
+# print(num)
 
+# #(3)try work =>remove all occurance
+# a=[1,2,1,3,3,4,5,2,1]
+# while 1 in a:
+#     a.remove(1)
+# print(a)
+
+# a=[1,2,1,3,3,4,5,2,1]
+# while a.count(1) > 0:
+#     a.remove(1)
+# print(a)
