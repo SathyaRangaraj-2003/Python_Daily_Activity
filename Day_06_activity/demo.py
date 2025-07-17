@@ -29,3 +29,7 @@
 # #nested tuple by negative indexing
 # x=((1,2),(3,4))
 # print(x[-1][-2])
+t1=1,2,3
+t2='a','b'
+t3=t1+t2
+print(t3*3)
