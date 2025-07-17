@@ -1,0 +1,18 @@
+# l=[1,2,"raja"]
+# print(l.sort())
+
+# sathya_tuple=("apple",2,None,True,5.9,[1,2],5+8,1>>2,3>8)
+# print(sathya_tuple)
+
+#list
+# list=[1,2,3,4]
+# tuple=(list[0:3])
+# print(tuple)
+
+# t1=(1,2,3,4,5)
+# print(t1)
+
+#by tuple
+list=tuple([1,2,3,4])
+tuple=(list[0:3])
+print(tuple)

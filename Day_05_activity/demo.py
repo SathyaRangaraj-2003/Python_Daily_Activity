@@ -97,21 +97,22 @@
 # print(str)
 # print("".join(str))
 
-# try 02
-words=["Geeks","For","Geeks"]
-for val in words:
-    word=[]
-    for char in val.lower():
-        word=("".join(chr(ord(char)-32)))
-print(" ".join(word))
+# # try 02
+# words=["Geeks","For","Geeks"]
+# word=[]
+# for val in words:
+#     str=""
+#     for char in val.lower():
+#         str+=chr(ord(char)-32)
+#     word.append(str)
+# print(" ".join(word))
 
 # words=["geeks","for","geeks"]
 # num=[123,287,9001]
 # print(str(num[2])[2])
 
-# # try :
+# # try : 3rd 9001 change 3rd index 0=>3
 # num=[123,287,9001]
-# print(str(num[2])[2])
 # print(str(num[2])[2])
 
 
@@ -145,11 +146,11 @@ print(" ".join(word))
 # print(a)
 # print(b)
 
-# a=[1,2,3]
-# b=a.copy()
-# b[0]=100
-# print(a)
-# print(b)
+a=[1,2,3]
+b=a.copy()
+b[0]=100
+print(a)
+print(b)
 
 # #count()
 # a=[1,2,1,3,3,4,5,2,1]
@@ -200,4 +201,4 @@ print(" ".join(word))
 #     a.remove(1)
 # print(a)
 
-a=[1,2,1,3,3,4,5,2,1]
+
