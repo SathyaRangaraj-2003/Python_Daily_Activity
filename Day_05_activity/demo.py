@@ -64,7 +64,7 @@
 # #list
 # mixed_sathya=[10,False,20,"sathya",40.0,None]
 
-#list()
+# #list()
 # letters=list("hello")
 # result=""
 # result+=letters[0].upper()
@@ -86,44 +86,52 @@
 # for char in a:
 #     print(chr(ord(char)-32),end="")
     
-
-# words=["geeks","for","geeks"]
+# #join()  list
+# words=["Geeks","For","Geeks"]
+# str=""
 # for val in words:
-#     str=""
-#     for char in val:
+#     for char in val.lower():
 #         str+=chr(ord(char)-32)
-#     print(" ".join(str))
+#     str+=" "
+# print(str)
+# # print("".join(str))
 
 # words=["geeks","for","geeks"]
 # num=[123,287,9001]
 # print(str(num[2])[2])
 
-# try :
+# # try :
 # num=[123,287,9001]
 # print(str(num[2])[2])
-# # print(str(num[2])[2])
+# print(str(num[2])[2])
 
 
-#concatenation
+# #concatenation
 # a=[1,2,3]
 # b=[5,6]
 # c=a+b
 # print(c)
 # print(type(c))
 
-#
+# # repetition(*)
 # a=["hi","hello"]*3
 # print(a)
 
-#membership operators (in,not in)
+# #membership operators (in,not in)
 # a=["hi","hello"]
 # print("yellow" in a)
 
 
-# methods
-# try :
+# # methods
+# # try :
 # num=[123,287,9001]
-# num.append(30)
+# a=num.pop(int(str(num[2])[2]))
+# print(num,a)
+
+# #append()
+# a=[1,2,3]
+# a.append(30)
+# print(a)
 
 # #shallow copy
 # a=[1,2,3]
@@ -138,12 +146,27 @@
 # print(a)
 # print(b)
 
-
+# #entend() => to add one list
 # a=[1,2,3]
 # b=[4,5]
+# c=[7,8,9]
+# a.extend(c)
+# print(a)
 
-name=["alice","bob"]
+# #index()
+# name=["alice","bob"]
 # print(name[name.index("alice")].index('i'))
 
-print(name.pop(3))
+# #try(1)
+# #to add multiple list
+# a=[1,2,3]
+# b=[4,5]
+# c=[7,8,9]
+# print(*a,*b,*c)
+# unpack=[*a,*b,*c]
+# print(unpack)
+# print(a+b+c)
+# a.extend(b+c)  # by modifying the list
+# print(a)
+
 
