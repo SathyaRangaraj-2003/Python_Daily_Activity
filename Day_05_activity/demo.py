@@ -199,3 +199,5 @@ print(" ".join(word))
 # while a.count(1) > 0:
 #     a.remove(1)
 # print(a)
+
+a=[1,2,1,3,3,4,5,2,1]
